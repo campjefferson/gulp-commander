@@ -1,0 +1,43 @@
+{
+  "name": "gulp-commander",
+  "description": "Use Commander-CLI options in Gulp for passing Command line flags",
+  "version": "0.1.2",
+  "homepage": "https://github.com/campjefferson/gulp-commander",
+  "author": "Camp Jefferson <thomas.schemmer@campjefferson.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/campjefferson/gulp-commander"
+  },
+  "bugs": {
+    "url": "https://github.com/campjefferson/gulp-commander/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "lib/gulp-command",
+  "engines": {
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "lodash": "^2.4.1",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "gulp": "~3.8.6",
+    "gulp-mocha": "~0.5"
+  },
+  "keywords": [],
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
